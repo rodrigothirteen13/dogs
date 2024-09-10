@@ -3,7 +3,7 @@
   position: fixed;
   width: 100%;
   z-index: 100;
-  background-color: white;
+  background: white;
   top: 0px;
 }
 
@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 4rem;
 }
 
 .logo {
@@ -21,10 +22,9 @@
   color: #333;
   display: flex;
   align-items: center;
-  height: 4rem;
 }
 
-.login:after {
+.login::after {
   content: '';
   display: inline-block;
   width: 14px;
