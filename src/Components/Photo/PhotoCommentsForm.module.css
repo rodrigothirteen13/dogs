@@ -43,6 +43,8 @@
 .button:focus,
 .button:hover {
   outline: none;
+  border: none;
+  box-shadow: none;
 }
 
 .button:focus svg path,
